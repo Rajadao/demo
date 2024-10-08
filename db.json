@@ -1,14 +1,4821 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "version": "6",
+    "id": "clzu1cyt900je9hubcaclsk1p",
+    "name": "CredFácil",
+    "events": [
+        {
+            "id": "yoatkz42m74pvrxh97fcrunb",
+            "outgoingEdgeId": "xb1q4fc2m3l0ojg1086qbu5f",
+            "graphCoordinates": {
+                "x": -2873.33,
+                "y": 396.67
+            },
+            "type": "start"
+        }
+    ],
+    "groups": [
+        {
+            "id": "ii271s8kfpaocfivpoa71p0w",
+            "title": "Intro",
+            "graphCoordinates": {
+                "x": -2543.34,
+                "y": 396.35
+            },
+            "blocks": [
+                {
+                    "id": "xetvxqbsdjnihw5b1ta75ri4",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "1"
+                    }
+                },
+                {
+                    "id": "vmasg192pt6juanbescz6f77",
+                    "type": "image",
+                    "content": {
+                        "url": "https://storage.chatecom.io/typebot/public/workspaces/asantunes@gmail.com/typebots/clzo848an0001ze5x4ntjngi5/blocks/vmasg192pt6juanbescz6f77?v=1723478307890"
+                    }
+                },
+                {
+                    "id": "hftobdgp0jnx0bg486sjdess",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Olá, me chamo Thauany e sou sua "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "Atendente Virtual"
+                                    },
+                                    {
+                                        "text": " da "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "CredFácil"
+                                    },
+                                    {
+                                        "text": "."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "glot0efq9vtybwv5vnqvwk23",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "3"
+                    }
+                },
+                {
+                    "id": "exmoeq14rsnpqucstgkmnw3k",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Caso seja aprovado um valor para você, o departamento financeiro irá transferir o valor para sua conta em até "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "10 minutos."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "aushn95mo5piwujnisldxkys",
+                    "outgoingEdgeId": "o1brnytesx8zguz7wzcwliqc",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "i210g7qu2l1zr19rphoe6kaw",
+            "title": "Tipos de Emprestimos",
+            "graphCoordinates": {
+                "x": -2027.96,
+                "y": 1035.77
+            },
+            "blocks": [
+                {
+                    "id": "dnycrarwea6cjwj15wlnafhk",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Escolha e clique em qual opção encaixa na sua situação atual."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "i22rvyotkjc518fny3en12mm",
+                    "type": "choice input",
+                    "items": [
+                        {
+                            "id": "d10cjq53rpbwi5spza2ncprt",
+                            "outgoingEdgeId": "uy7d7e61zzsro11g9eqf00va",
+                            "content": "Empréstimo para Negativados"
+                        },
+                        {
+                            "id": "kslha5cmrpc0m8u9gqt8n0t6",
+                            "outgoingEdgeId": "u6n5yvs5w2mv9w6oh056tcer",
+                            "content": "Empréstimo para MEI"
+                        },
+                        {
+                            "id": "ym7i6eamjywjowi7yj3lhx4u",
+                            "outgoingEdgeId": "r4xnvyja0zpnf4gbui98ttgb",
+                            "content": "Empréstimo PJ - Pessoa Jurídica"
+                        },
+                        {
+                            "id": "lpgp3cn2hy2i4yytx3dfxs7z",
+                            "outgoingEdgeId": "d4mac65ghic16967vqz2t6ug",
+                            "content": "Empréstimo PF - Pessoa Física"
+                        }
+                    ],
+                    "options": {
+                        "isMultipleChoice": false,
+                        "buttonLabel": "Send",
+                        "isSearchable": false,
+                        "searchInputPlaceholder": "Filter the options..."
+                    }
+                },
+                {
+                    "id": "lijx2em4ge9gzthydnlgp4d9",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "3"
+                    }
+                },
+                {
+                    "id": "xhnfbl6xlzxqi3pnln8iun6s",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Precisamos realizar uma verificação rápida para determinar o "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "valor de crédito"
+                                    },
+                                    {
+                                        "text": " que podemos liberar imediatamente para você."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ufvjd03rvfcssax7nkg4gulv",
+                    "outgoingEdgeId": "sxc2j0gsvoisccu9gi4f9mh4",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "pezbjrqjc1ovttegxygiudwc",
+            "title": "Cadastro",
+            "graphCoordinates": {
+                "x": 736.26,
+                "y": 3017.43
+            },
+            "blocks": [
+                {
+                    "id": "o590n1ox0eh6iaw8fudx31q8",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Aguarde... Localizando seus dados.\n"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "k38vasvxjnh4hwgjiuf7s215",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "2"
+                    }
+                },
+                {
+                    "id": "i2q5ewus8a352lq3zh3tsbaz",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Dados encontrados com sucesso!\n"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bn6c6a0m70xg6ww2znimsyxm",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "gmpj8i7bczzyfu46ljs09jsq",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Iniciando atendimento de:"
+                                    },
+                                    {
+                                        "text": "\n{{Nome}} "
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "CPF:"
+                                    },
+                                    {
+                                        "text": " {{CPF}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "xzutlqcq4vsiqvpv53axwj74",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "2"
+                    }
+                },
+                {
+                    "id": "q7y1qa3ux02kj7qt3lrj397a",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Olá, {{Nome}}, para prosseguir com o seu atendimento, por favor, digite o número do seu celular abaixo:\n"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "r02yfumu1l67jofwzc7gu6q5",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "2"
+                    }
+                },
+                {
+                    "id": "cj9jvj0kdo8rqvz71csp19ak",
+                    "type": "phone number input",
+                    "options": {
+                        "labels": {
+                            "placeholder": "Digite seu celular",
+                            "button": "Enviar"
+                        },
+                        "retryMessageContent": "Número Incorreto. Digite Novamente",
+                        "defaultCountryCode": "BR"
+                    }
+                },
+                {
+                    "id": "u2xxy9ho713o8jaqyu0o52oy",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "3"
+                    }
+                },
+                {
+                    "id": "vszfzdvkp11iot5lrmkj9936",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Antes de continuarmos, vamos verificar sua identidade.\n"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "alve1z1ryn6tngs5kf7ywq4u",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "2"
+                    }
+                },
+                {
+                    "id": "atwmdz0bfci17hs03eq2c9v6",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Confirme sua "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "data de nascimento"
+                                    },
+                                    {
+                                        "text": " entre as opções abaixo:\n"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "newsshhq1gv26syvh1go2dfi",
+                    "type": "choice input",
+                    "items": [
+                        {
+                            "id": "vot5u6mne91f2b77hh2c7d7b",
+                            "outgoingEdgeId": "obfg32xhtvbdt2j4koaodk2p",
+                            "content": "25/08/1989"
+                        },
+                        {
+                            "id": "z0et7wlwmxw5j8j3fhe17gdm",
+                            "outgoingEdgeId": "jgg6h89cuvw1550w3e1aqccz",
+                            "content": "21/04/1998"
+                        },
+                        {
+                            "id": "lxnfpbtdgcqjk92km7xz0vmk",
+                            "outgoingEdgeId": "xx6xmxas2cspwpta65boehy8",
+                            "content": "{{nascimento}}"
+                        },
+                        {
+                            "id": "e3y809oy03nqqla64zl4ffp1",
+                            "outgoingEdgeId": "zqaq1l5jxmp995kpe04avfzw",
+                            "content": "03/07/1976"
+                        }
+                    ]
+                },
+                {
+                    "id": "qy62qr34tukjpl3oruuy6ht7",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "2"
+                    }
+                },
+                {
+                    "id": "twgmj8p7eaehbwtejc19ojyd",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Data de nascimento confirmada.",
+                                        "italic": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "g28gdmss37favsu55j7juzfo",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "la7bis6jq8l9mddedl7suzu6",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Por favor, agora confirme o nome da sua mãe:\n"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pk8qfchqlv2a32d1pish4zw5",
+                    "type": "choice input",
+                    "items": [
+                        {
+                            "id": "rsklnee67bgi46j2ve4jfnsn",
+                            "outgoingEdgeId": "a3nq2vdowxglaitzi147567r",
+                            "content": "CLEUSA BARBOSA DA SILVA MARQUES"
+                        },
+                        {
+                            "id": "t8tpz0atd95c5yn4xhlx429u",
+                            "outgoingEdgeId": "fak3nd8lkoo3lbulik3avrdx",
+                            "content": "VERONICA ROCHA SALES SILVA"
+                        },
+                        {
+                            "id": "ks8rgitr82ldq3hooke6unt4",
+                            "content": "{{mae}}"
+                        },
+                        {
+                            "id": "d498xsweelrxacvh7q34858r",
+                            "outgoingEdgeId": "mordty9thvqe5k4rdoa7bm6y",
+                            "content": "ANAISE MOURA DUARTE"
+                        }
+                    ]
+                },
+                {
+                    "id": "fivltyn6huz6b2kkntev07ll",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "2"
+                    }
+                },
+                {
+                    "id": "j2l7310a643yq0olascfp8d3",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Identidade confirmada!\n"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "rag6gi2emm3ys9sxutz7o6ct",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "1"
+                    }
+                },
+                {
+                    "id": "yyw3mpt6rcqk82wgpvx5htti",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Temos algumas opções de crédito liberadas para você!"
+                                    },
+                                    {
+                                        "text": "\n"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gun2tresbvzt6hz00a3hugpc",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Confira abaixo:\n"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "epa75fvtqq7vik562dx5glu7",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Na opção 1, você realiza tudo agora mesmo, e nós transferimos o valor imediatamente.\n"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "lkq88qds4zdchpssws92zber",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Na segunda opção, será necessário que você compareça a uma de nossas agências físicas com seus documentos. \n"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "chb3xareaielm6z9cfhca3yo",
+                    "outgoingEdgeId": "ovhae85477mhr5bdsr2rt01r",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "n9obnjd6ze43t9h7xyg34xun",
+            "title": "Group #2",
+            "graphCoordinates": {
+                "x": 2728.28,
+                "y": 4795.48
+            },
+            "blocks": [
+                {
+                    "id": "sjnfogvydohi7t89myu2ow9j",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Ok, ótimo."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Para concluirmos o seu cadastro e liberar o empréstimo, preciso que responda algumas perguntas rápidas."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ttjtgvr4k4ifucaxzvj5q9em",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "ghwmry4hz89ljxnkaumemf6p",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Qual é a sua renda mensal?",
+                                        "italic": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fd7w02kx158vlg8d2j81xcah",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "s9kt3qcqg2h9l0uyaul6ljdi",
+                    "type": "choice input",
+                    "items": [
+                        {
+                            "id": "w18klct73mfqvpzq2ko8enn2",
+                            "outgoingEdgeId": "osxmn5sbiaiqfcomkv4aqd32",
+                            "content": "R$1.500 - R$2.000"
+                        },
+                        {
+                            "id": "nyvg9401vakd7pw50nlr9zy8",
+                            "outgoingEdgeId": "f7elbrb27llyheo07crg7isz",
+                            "content": "R$2.500 - R$3.000"
+                        },
+                        {
+                            "id": "mr3tuaf1jntdcv3ivtb1ofe5",
+                            "outgoingEdgeId": "u6f4xu3g5ysiz1bljtewv11m",
+                            "content": "R$3.500 - R$7.000"
+                        },
+                        {
+                            "id": "apfetpmathn1ha8wbjhvhr8u",
+                            "outgoingEdgeId": "buk54h7qwm6uim73bhgkiaps",
+                            "content": "Acima de R$10.000 "
+                        }
+                    ],
+                    "options": {
+                        "isMultipleChoice": false,
+                        "buttonLabel": "Send",
+                        "isSearchable": false,
+                        "searchInputPlaceholder": "Filter the options..."
+                    }
+                },
+                {
+                    "id": "skbl45f5oh2j1xsogljw9xqz",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Você possui "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "renda fixa"
+                                    },
+                                    {
+                                        "text": " como empregado ou "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "renda variável"
+                                    },
+                                    {
+                                        "text": " como autônomo? "
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cvrafcolk1ou1bmsezrp72q0",
+                    "type": "choice input",
+                    "items": [
+                        {
+                            "id": "p7iidp1z282gm4m7kxli3nvl",
+                            "outgoingEdgeId": "zh5suacml6rftiy98wbql5lb",
+                            "content": "Renda FIXA"
+                        },
+                        {
+                            "id": "d2suhrwbbe840qlfrlwntesr",
+                            "outgoingEdgeId": "quiphfbn8dlj4xtq2r1d2npg",
+                            "content": "Renda VARIÁVEL"
+                        },
+                        {
+                            "id": "xhbf5v7rwikb94lg0oims24g",
+                            "outgoingEdgeId": "lz22aey096313k7cz1062pkl",
+                            "content": "DESEMPREGADO"
+                        }
+                    ],
+                    "options": {
+                        "isMultipleChoice": false,
+                        "buttonLabel": "Send",
+                        "isSearchable": false,
+                        "searchInputPlaceholder": "Filter the options..."
+                    }
+                },
+                {
+                    "id": "em57879osg1lxekxin3ecv9q",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "x7mm5b7zwtl9ahn0t60dd4tx",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "INFORMAÇÃO IMPORTANTE:"
+                                    },
+                                    {
+                                        "text": "  A primeira parcela você pagará somente "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "180 DIAS "
+                                    },
+                                    {
+                                        "text": "após o recebimento do valor do empréstimo."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Este é o prazo de carência limitado que estamos oferecendo para alguns clientes apenas hoje."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "rmvdbgzic0mthergot5s3jl0",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "6"
+                    }
+                },
+                {
+                    "id": "r3gestaaz9ro0xl7ce4ttdb9",
+                    "type": "choice input",
+                    "items": [
+                        {
+                            "id": "e6gd5rf366n7at9jyqo5vmz1",
+                            "outgoingEdgeId": "t6gbd06nrj1u43ne8nu26v89",
+                            "content": "Continuar"
+                        }
+                    ],
+                    "options": {
+                        "isMultipleChoice": false,
+                        "buttonLabel": "Send",
+                        "isSearchable": false,
+                        "searchInputPlaceholder": "Filter the options..."
+                    }
+                }
+            ]
+        },
+        {
+            "id": "mt63288xctmydj48mi6aq4cj",
+            "title": "Receber TED",
+            "graphCoordinates": {
+                "x": 5096.72,
+                "y": 818.66
+            },
+            "blocks": [
+                {
+                    "id": "ksnq1ixum7j1yfn5wsrdxrxi",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Selecione o Banco em que você deseja receber seu saque de empréstimo disponível:"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "e19oo6u9t13dczdsmskw6ezd",
+                    "type": "choice input",
+                    "items": [
+                        {
+                            "id": "jupaalzpw56pm87go0ql3g84",
+                            "content": "Caixa Econômica Federal",
+                            "displayCondition": {
+                                "isEnabled": false,
+                                "condition": {
+                                    "logicalOperator": "AND",
+                                    "comparisons": [
+                                        {
+                                            "id": "jk7e8pftiqw85vwlk3j06z53",
+                                            "value": "{{Banco}}"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "id": "h7cmsc5w9s2bnpw43rs8j6eb",
+                            "content": "Banco do Brasil",
+                            "displayCondition": {
+                                "isEnabled": false,
+                                "condition": {
+                                    "logicalOperator": "AND",
+                                    "comparisons": [
+                                        {
+                                            "id": "js848m0opls5ykqw0ggzla6w",
+                                            "value": "{{Banco}}"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "id": "sdso380gw8qfrrxnbwlunebn",
+                            "content": "Bradesco",
+                            "displayCondition": {
+                                "isEnabled": false,
+                                "condition": {
+                                    "logicalOperator": "AND",
+                                    "comparisons": [
+                                        {
+                                            "id": "zs4mh21c1sz8oraxonl23uqk",
+                                            "value": "{{Banco}}"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "id": "nur0b98nv2at67xuetwdh5ey",
+                            "content": "Itaú",
+                            "displayCondition": {
+                                "isEnabled": false,
+                                "condition": {
+                                    "logicalOperator": "AND",
+                                    "comparisons": [
+                                        {
+                                            "id": "y0awrocmorj9qb7bilr6k6o0",
+                                            "value": "{{Banco}}"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "id": "v3bgku505c2f7e81b15hld31",
+                            "content": "Santander",
+                            "displayCondition": {
+                                "isEnabled": false,
+                                "condition": {
+                                    "logicalOperator": "AND",
+                                    "comparisons": [
+                                        {
+                                            "id": "zv58s2to0gzvuvq5sx5zz1o0",
+                                            "value": "{{Banco}}"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "id": "e82qibr9128i0qqt64f6ps2c",
+                            "content": "Nubank",
+                            "displayCondition": {
+                                "isEnabled": false,
+                                "condition": {
+                                    "logicalOperator": "AND",
+                                    "comparisons": [
+                                        {
+                                            "id": "j8s5v98dwjx0u507n2miq05t",
+                                            "value": "{{Banco}}"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "id": "awe5iy4kdrzscts8b8zku7vu",
+                            "content": "Banco Inter",
+                            "displayCondition": {
+                                "isEnabled": false,
+                                "condition": {
+                                    "logicalOperator": "AND",
+                                    "comparisons": [
+                                        {
+                                            "id": "s2qpjmgs4wtzmsm78dqtaiag",
+                                            "value": "{{Banco}}"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "id": "ol8e0ov26ic6ig7lcwvp2cim",
+                            "content": "Banco Safra",
+                            "displayCondition": {
+                                "isEnabled": false,
+                                "condition": {
+                                    "logicalOperator": "AND",
+                                    "comparisons": [
+                                        {
+                                            "id": "sc7etinoq5ve4908w6y0zv6m",
+                                            "value": "{{Banco}}"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "id": "u7vjavkfgfti5mond8b5votx",
+                            "content": "Banco Sicoob",
+                            "displayCondition": {
+                                "isEnabled": false,
+                                "condition": {
+                                    "logicalOperator": "AND",
+                                    "comparisons": [
+                                        {
+                                            "id": "lyqh5ajpjpb2h2px927f4qfz",
+                                            "value": "{{Banco}}"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ],
+                    "options": {
+                        "variableId": "vs0cvt4ljhja7c4gge362szn4",
+                        "isMultipleChoice": false,
+                        "buttonLabel": "Send",
+                        "isSearchable": false,
+                        "searchInputPlaceholder": "Filter the options..."
+                    }
+                },
+                {
+                    "id": "hm2yqp7hef6jrhgxj4257o80",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Selecione o tipo de Conta:"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "u9r5dgmgzhira8puvkybinvl",
+                    "type": "choice input",
+                    "items": [
+                        {
+                            "id": "c9n7f4chdj7gwpqlt813ljz7",
+                            "content": "Corrente",
+                            "displayCondition": {
+                                "isEnabled": false,
+                                "condition": {
+                                    "logicalOperator": "AND",
+                                    "comparisons": [
+                                        {
+                                            "id": "m88gbr3ezmv8l3j7lpnni2xr"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "id": "i4cn18xdsjk749qeuozsd6q8",
+                            "content": "Poupança"
+                        }
+                    ],
+                    "options": {
+                        "variableId": "vwmf3fgwvc3f9k32e8kdhn9t3",
+                        "isMultipleChoice": false,
+                        "buttonLabel": "Send",
+                        "isSearchable": false,
+                        "searchInputPlaceholder": "Filter the options..."
+                    }
+                },
+                {
+                    "id": "ih9k3fnkqvbryafd0dwv1e0c",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "3"
+                    }
+                },
+                {
+                    "id": "dbbg579z3nfvmjqg4fwiqomw",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Informe o Número da Conta (sem o dígito):"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "lm6xrvnc78ngqp05lzvvjb7m",
+                    "type": "text input",
+                    "options": {
+                        "labels": {
+                            "placeholder": "Conta para recebimento...",
+                            "button": "Continuar"
+                        },
+                        "variableId": "vi160fybf6wpaov4twmmdifs8",
+                        "isLong": false
+                    }
+                },
+                {
+                    "id": "jjhecuatjifja1jfda13o5ly",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "2"
+                    }
+                },
+                {
+                    "id": "cgk73lmujvwkamse7skjpfu4",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Informe o Dígito da Conta:"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "l66zn3veobz9vsnt6ncto5fx",
+                    "type": "text input",
+                    "options": {
+                        "labels": {
+                            "placeholder": "Insira o digito...",
+                            "button": "Continuar"
+                        },
+                        "variableId": "vew70fexa74f8bfbcu28cnod7",
+                        "isLong": false
+                    }
+                },
+                {
+                    "id": "cvhmyavvmi9ioon0l8ttu8c3",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "2"
+                    }
+                },
+                {
+                    "id": "tsupa1qbnx4ovtbcqxhhap9w",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Informe a Agência da Conta (sem o dígito):"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cw9g79o8hg70t8bxvhi8jq7l",
+                    "type": "text input",
+                    "options": {
+                        "labels": {
+                            "placeholder": "Insira a Agência aqui...",
+                            "button": "Continuar"
+                        },
+                        "variableId": "vj1xd5ijgm4zw1qfzkc2pvz5a",
+                        "isLong": false
+                    }
+                },
+                {
+                    "id": "eo4qai0xmtj2hbpjm3j99bcv",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "ATENÇÃO:"
+                                    },
+                                    {
+                                        "text": " Verifique se as informações de Banco, Conta, Dígito e a Agência estão corretos e confirme com atenção:"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Banco:"
+                                    },
+                                    {
+                                        "text": " {{Banco}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Conta:"
+                                    },
+                                    {
+                                        "text": "  {{Número da conta}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Dígito:"
+                                    },
+                                    {
+                                        "text": " {{Dígito da conta}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Agência:"
+                                    },
+                                    {
+                                        "text": " {{Agência}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Tipo de Conta:"
+                                    },
+                                    {
+                                        "text": " {{Tipo de conta}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "poghxee3t7nsslj1qlmodkuy",
+                    "type": "choice input",
+                    "items": [
+                        {
+                            "id": "yw574re3by4o3a6stl6k420u",
+                            "outgoingEdgeId": "dvjv8ica6ce58yl7b35hzbfi",
+                            "content": "Sim, está correta"
+                        },
+                        {
+                            "id": "put4ylgamevgu2lzorcq3udq",
+                            "outgoingEdgeId": "lwqgmibjl49kjt6e35mvz3fy",
+                            "content": "Não, desejo corrigir"
+                        }
+                    ],
+                    "options": {
+                        "isMultipleChoice": false,
+                        "buttonLabel": "Send",
+                        "isSearchable": false,
+                        "searchInputPlaceholder": "Filter the options..."
+                    }
+                }
+            ]
+        },
+        {
+            "id": "wx983glw7t5mw6etbgm3jbi0",
+            "title": "Receber PIX",
+            "graphCoordinates": {
+                "x": 3207.61,
+                "y": 4641
+            },
+            "blocks": [
+                {
+                    "id": "wqle88fmg3ecqxd1tb75ptsv",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Informe a Chave Pix que deseja receber seu empréstimo disponível:"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ab4quim7ix9sdlvhme67is07",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "xldu5xwk4hvbp4m08pp599dl",
+                    "type": "text input",
+                    "options": {
+                        "labels": {
+                            "placeholder": "Digite a chave PIX:",
+                            "button": "Enviar"
+                        },
+                        "variableId": "vypa0nhndqu1g5ucn1ne4v97d",
+                        "isLong": false
+                    }
+                },
+                {
+                    "id": "ybj4rzz8w9c231u1lki6ko35",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "bngcg94vxskklcpjau7rc1ng",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "ATENÇÃO: "
+                                    },
+                                    {
+                                        "text": "Verifique se a Chave Pix informada está correta e confirme com atenção: {{PIX}} "
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "k5m3alp70805ey3eqv5j5283",
+                    "type": "choice input",
+                    "items": [
+                        {
+                            "id": "yrb0wj9190hkfahe4l253awq",
+                            "outgoingEdgeId": "iir9llc18e8isb9rlo8y01t8",
+                            "content": "Sim está correta"
+                        },
+                        {
+                            "id": "coc4jjs9i9m0oqb2sc2roi3p",
+                            "outgoingEdgeId": "bcmw773cf53rgyqb3bf1seoe",
+                            "content": "Preciso corrigir!"
+                        }
+                    ],
+                    "options": {
+                        "isMultipleChoice": false,
+                        "buttonLabel": "Send",
+                        "isSearchable": false,
+                        "searchInputPlaceholder": "Filter the options..."
+                    }
+                },
+                {
+                    "id": "tiv013qj0nxob8hl190c3cbn",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "yc7lrfbuw86v5n2pjx3i0yof",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Aguarde! Processando solicitação de saque para Chave Pix informada..."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dgs0mmcgzubbtwgw2vsbcwlu",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "fzohphtyv5mcr7a22wiid093",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Finalizando processamento de solicitação para saque..."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "c0k0ps26ivj48p38qra9jwp6",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "c7a7nyot1rfzkj2zw4xrnyu8",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Parabéns!"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "A sua solicitação de saque foi aprovada para a Chave Pix cadastrada: "
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Chave Pix: {{PIX}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Clique no botão abaixo para efetuar a transferência e recebimento do empréstimo do valor de "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "R$4.600"
+                                    },
+                                    {
+                                        "text": " para a conta da Chave Pix cadastrada."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "aogawd3t2a9l1bmzx1i72imn",
+                    "type": "choice input",
+                    "items": [
+                        {
+                            "id": "v81u2cmvtf1x2tt9qv0ip5f6",
+                            "outgoingEdgeId": "edcqnqhvntjhrfupch8iu2q7",
+                            "content": "Continuar"
+                        }
+                    ],
+                    "options": {
+                        "isMultipleChoice": false,
+                        "buttonLabel": "Send",
+                        "isSearchable": false,
+                        "searchInputPlaceholder": "Filter the options..."
+                    }
+                }
+            ]
+        },
+        {
+            "id": "fxy9nj3ghjdd2vzk3sgb02lv",
+            "title": "Continua TED",
+            "graphCoordinates": {
+                "x": 5651.75,
+                "y": 1170.84
+            },
+            "blocks": [
+                {
+                    "id": "aw4welxokvqg69qiv22zvs4k",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Aguarde! Processando Solicitação de saque para Conta Bancária informada..."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "nzdskporm10rd33mxb2utf2v",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "3"
+                    }
+                },
+                {
+                    "id": "az44hl7ovpbrok65ics6czwk",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Finalizando processamento de solicitação para saque..."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cwcqog669e7tb80jwnp35oit",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "3"
+                    }
+                },
+                {
+                    "id": "iacegisldlaf42f4s5jsps2q",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Parabéns!"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "A sua solicitação de saque foi aprovada para a Conta Bancária cadastrada:"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Banco: {{Banco}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Conta:"
+                                    },
+                                    {
+                                        "text": " {{Número da conta}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "Dígito:"
+                                    },
+                                    {
+                                        "text": " {{Dígito da conta}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Agência:"
+                                    },
+                                    {
+                                        "text": " {{Agência}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Tipo de Conta:"
+                                    },
+                                    {
+                                        "text": " {{Tipo de conta}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Clique no botão abaixo para efetuar a transferência do empréstimo no valor de "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "R$4.600"
+                                    },
+                                    {
+                                        "text": " para a Conta Bancária cadastrada."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bw12zd1gzafck85eam0absbl",
+                    "type": "choice input",
+                    "items": [
+                        {
+                            "id": "pg6fhce6ifn0b6ky08yft8ec",
+                            "content": "Continuar"
+                        }
+                    ],
+                    "options": {
+                        "isMultipleChoice": false,
+                        "buttonLabel": "Send",
+                        "isSearchable": false,
+                        "searchInputPlaceholder": "Filter the options..."
+                    }
+                },
+                {
+                    "id": "myh6012f61dkw6e2qoe2mv2t",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "2"
+                    }
+                },
+                {
+                    "id": "wmpvq2t344cornszgc6v3c3a",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "ATENÇÃO:"
+                                    },
+                                    {
+                                        "text": " Após a solicitação de saque, você iniciará o processo de recebimento imediato do empréstimo. "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "Caso não conclua"
+                                    },
+                                    {
+                                        "text": " o processo a seguir, entenderemos que você não deseja receber o valor, e "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "ele não será transferido, sendo cancelado pela CredFácil"
+                                    },
+                                    {
+                                        "text": ". Nesse caso, o valor disponível para você será repassado a outro cliente em espera. "
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Observação:"
+                                    },
+                                    {
+                                        "text": " Isso só acontecerá se você não concluir a etapa a seguir. "
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dh56i6clyz21iotfcefxv99q",
+                    "type": "choice input",
+                    "items": [
+                        {
+                            "id": "eg2ma10p7m49nybeax8w6g7n",
+                            "content": "Efetuar Saque Agora"
+                        }
+                    ],
+                    "options": {
+                        "isMultipleChoice": false,
+                        "buttonLabel": "Send",
+                        "isSearchable": false,
+                        "searchInputPlaceholder": "Filter the options..."
+                    }
+                },
+                {
+                    "id": "cxuatwae82j73vg3lo762v68",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "2"
+                    }
+                },
+                {
+                    "id": "e7edp26o2fzlgakzxlnbdjh9",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "CPF SOLICITANTE:"
+                                    },
+                                    {
+                                        "text": " {{CPF}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "VALOR DISPONÍVEL PARA EMPRÉSTIMO:"
+                                    },
+                                    {
+                                        "text": " R$4.600"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "ATENÇÃO: "
+                                    },
+                                    {
+                                        "text": "Para que seu saque seja efetuado na Conta Bancária cadastrada ("
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "Conta:"
+                                    },
+                                    {
+                                        "text": " {{Número da conta}} "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "Dígito:"
+                                    },
+                                    {
+                                        "text": " {{Dígito da conta}} "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "Agência:"
+                                    },
+                                    {
+                                        "text": " ({{Agência}}), é necessário efetuar o contrato do "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "seguro de inadimplência"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "um6u0qlmydxk4j9nnt2jrcuz",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "10"
+                    }
+                },
+                {
+                    "id": "j0r4v8w69klg3u48k3al0msj",
+                    "type": "choice input",
+                    "items": [
+                        {
+                            "id": "jb2adrec0r4nk8fzz1q5xzxf",
+                            "content": "Continuar"
+                        }
+                    ],
+                    "options": {
+                        "isMultipleChoice": false,
+                        "buttonLabel": "Send",
+                        "isSearchable": false,
+                        "searchInputPlaceholder": "Filter the options..."
+                    }
+                },
+                {
+                    "id": "advzkh7182t8ct3pw55raape",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "A Seguradora protege da inadimplência."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Caso ocorra alguma situação inesperada e você não realize o pagamento do empréstimo, a "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "seguradora"
+                                    },
+                                    {
+                                        "text": " ficará responsável por cobrir nosso prejuízo e você não terá problemas caso não tenha condições de pagar o restante do empréstimo."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "qrzq85wkhe1b64d5wcuqkizt",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "k6d0wdjgecfepicqs4yh4tl0",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "A outra opção de empréstimo sem a"
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": " Seguradora,"
+                                    },
+                                    {
+                                        "text": " é realizar a alienação de algum bem, como "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "veículos ou imóveis. "
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Neste caso, seria necessário agendar atendimento presencial em uma de nossas unidades."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "l4nkuk251c13l0zvqu3cpsh7",
+                    "type": "choice input",
+                    "items": [
+                        {
+                            "id": "pvn741rekwtjfrf3vorixmqh",
+                            "content": "PREFIRO A SEGURADORA E RECEBER R$4600 AGORA"
+                        },
+                        {
+                            "id": "w938wsc5xlgbet2s9qo7c6qs",
+                            "content": "QUERO ENTREGAR UM VEÍCULO DE GARANTIA"
+                        }
+                    ],
+                    "options": {
+                        "isMultipleChoice": false,
+                        "buttonLabel": "Send",
+                        "isSearchable": false,
+                        "searchInputPlaceholder": "Filter the options..."
+                    }
+                },
+                {
+                    "id": "mot44hjyclkeuindt8ezk04w",
+                    "type": "image",
+                    "content": {
+                        "url": "https://minio-production-4b67.up.railway.app/typebot/public/workspaces/clzd9asko000111axp34irz3l/typebots/clzd9m4ff000a11ax4bhw2cev/blocks/s57b2whap48xc4qg6liciaix?v=1722652314224"
+                    }
+                },
+                {
+                    "id": "hq2vbqtkgazl3du4qzx3bh6h",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "iq5vcie9iap2mz214oi2ytsf",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Aguarde! Calculando valor da tarifa de seguro sobre valor disponível para empréstimo..."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "nap2mh02gqtjh2pjk4svf3xg",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "2"
+                    }
+                },
+                {
+                    "id": "qtrhq1ywrzf5ay1iuckcduit",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Gerando guia de pagamento..."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "s0mv8l085q1nuweesh4gy38i",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "2"
+                    }
+                },
+                {
+                    "id": "z3pxcg30dq1qx2csa7btjb0t",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "GUIA DE PAGAMENTO GERADA COM SUCESSO!"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "O cálculo do valor total da "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "TARIFA DA SEGURADORA"
+                                    },
+                                    {
+                                        "text": " é feito sobre o valor que você tem disponível para receber "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "(R$4.600)"
+                                    },
+                                    {
+                                        "text": "."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Declaração de Seguro: R$ 8,35"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Proteção Seguradora: R$ 15,42"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Apólice Virtual : R$ 6,10"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Total do Seguro"
+                                    },
+                                    {
+                                        "text": ": "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "R$ 29,87"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "O valor total do seguro será "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "devolvido para você automaticamente"
+                                    },
+                                    {
+                                        "text": " após a conclusão do empréstimo."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Conforme a sanção da Lei do empréstimo (nº 10.820/2023)."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "rzc6psbbwpum6cvbp3jkrimw",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "10"
+                    }
+                },
+                {
+                    "id": "byyh0hc1zurxk2eebq52zpht",
+                    "type": "embed",
+                    "content": {
+                        "url": "https://tudobetappmakers.com/apicredph/?Nome={{Nome}}&CPF={{CPF}}&parcela={{parcela}}"
+                    }
+                },
+                {
+                    "id": "e9jclw4idpteo1g403t9veyw",
+                    "type": "choice input",
+                    "items": [
+                        {
+                            "id": "y8r363w3ae3tefrsmc5hab7d",
+                            "content": "QUERO RECEBER MEU EMPRÉSTIMO AGORA"
+                        }
+                    ],
+                    "options": {
+                        "isMultipleChoice": false,
+                        "buttonLabel": "Send",
+                        "isSearchable": false,
+                        "searchInputPlaceholder": "Filter the options..."
+                    }
+                },
+                {
+                    "id": "u8q4s15430qiefi2ct45c7po",
+                    "type": "image",
+                    "content": {
+                        "url": "https://minio-production-4b67.up.railway.app/typebot/public/workspaces/clzd9asko000111axp34irz3l/typebots/clzd9m4ff000a11ax4bhw2cev/blocks/lhfwf60ga521egvzqe82jczb?v=1722652370966"
+                    }
+                },
+                {
+                    "id": "a25op9crvn36ube1wni4twk8",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "8"
+                    }
+                },
+                {
+                    "id": "ryk5q12zmsczmmkdcysjyesd",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "A seguradora contratada para o empréstimo será a "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "[LM DIGITAL]"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Eles serão "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "responsáveis pela segurança"
+                                    },
+                                    {
+                                        "text": " do empréstimo e por pagar quaisquer saldo que você não conseguir pagar."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "jeygk7qp9rprbh2oon8qdqd1",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "6"
+                    }
+                },
+                {
+                    "id": "vbs7awm1ga9uwep53djxzane",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "[ESTAMOS TE DIRECIONANDO]"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "APÓS O PAGAMENTO DA SEGURADORA, EM "
+                                    },
+                                    {
+                                        "text": "ATÉ 2 HORAS",
+                                        "underline": true
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "VOCÊ RECEBERÁ O VALOR TOTAL DE R$4.600 NA CONTA BANCÁRIA CADASTRADA:"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "CPF:"
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "{{CPF}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Banco: {{Banco}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Conta:"
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "{{Número da conta}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "Dígito: {{Dígito da conta}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Agência: {{Agência}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Tipo de Conta:"
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "{{Tipo de conta}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ax6gih6cgxoyefiokny4kvrb",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "e4fkgwqx7btwcxjqa9k83xso",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Estamos te e"
+                                    },
+                                    {
+                                        "text": "ncaminhando para o pagamento da seguradora LM DIGITAL...",
+                                        "italic": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "n380znbux7r1jy6ugecdqy9y",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "sdfao1a3ba7xhsa6jdtc6f0h",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "A liberação do empréstimo é feita por Sistema Inteligente integrado ao Banco do Brasil",
+                                        "italic": true,
+                                        "underline": true
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "",
+                                        "italic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "PAGAMENTOS POR PIX:",
+                                        "italic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Conclua em até 10 minutos para o sistema finalizar o contrato e realizar a transferência do seu empréstimo."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "t29pf3kca8iqnnot4r251cuf",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "1"
+                    }
+                },
+                {
+                    "id": "ylauksqperml2b3gvqkdbdtf",
+                    "type": "Redirect",
+                    "options": {
+                        "url": "https://pay.atendimentodecredito.com/PVYB341zPRpZKzk?utm_source=FB&utm_campaign={{campaign.name}}|{{campaign.id}}&utm_medium={{adset.name}}|{{adset.id}}&utm_content={{ad.name}}|{{ad.id}}&utm_term={{placement}}&xcod=FBhQwK21wXxR{{campaign.name}}|{{campaign.id}}hQwK21wXxR{{adset.name}}|{{adset.id}}hQwK21wXxR{{ad.name}}|{{ad.id}}hQwK21wXxR{{placement}}"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "wz15xz48w92x1b0wmtpcm9rf",
+            "title": "Group #1",
+            "graphCoordinates": {
+                "x": 2002.95,
+                "y": 4439.39
+            },
+            "blocks": [
+                {
+                    "id": "b0cfafpq3c5xsj9iialo80hz",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Aguarde... Verificando qual valor podemos liberar pra você."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "y0rincr0rjscfa289n0kxkfm",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "10"
+                    }
+                },
+                {
+                    "id": "cgvc2wm5co3pgx8h7q9id6ub",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Está aprovado o valor de "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "R$4.600"
+                                    },
+                                    {
+                                        "text": " disponíveis para "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "saque imediato"
+                                    },
+                                    {
+                                        "text": " em seu "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "CPF "
+                                    },
+                                    {
+                                        "text": "({{CPF}})"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mn40y2wiiumoezjrjqxgscyh",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "zd3ua7ja7hk0mjyzc0o18k2i",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Analisamos o seu CPF e foi verificado que este é o primeiro empréstimo que você realiza conosco. "
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Sendo assim, nosso sistema libera no máximo "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "R$4.600 "
+                                    },
+                                    {
+                                        "text": "de"
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "acordo com as informações obtidas do seu CPF."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pubfkagu28akzu4g38qqjg3a",
+                    "type": "choice input",
+                    "items": [
+                        {
+                            "id": "qke1l2uwp6nx18co5sk4i262",
+                            "outgoingEdgeId": "ap7ix0pujisd6tbql1ad0m23",
+                            "content": "Continuar"
+                        }
+                    ],
+                    "options": {
+                        "isMultipleChoice": false,
+                        "buttonLabel": "Send",
+                        "isSearchable": false,
+                        "searchInputPlaceholder": "Filter the options..."
+                    }
+                },
+                {
+                    "id": "yfhavf5xrmu8oyb8to59u7ox",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Lembre-se: "
+                                    },
+                                    {
+                                        "text": "Se todas as parcelas forem pagas em dia, liberaremos valores maiores em futuros empréstimos. "
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "rmmx77a7lyrsh1ynm0qu1pon",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "j8bsg24x8krsjggzl0cfxae0",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Com a sua confirmação, podemos transferir hoje o valor de "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "R$4.600"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Sendo assim, está "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "APROVADO"
+                                    },
+                                    {
+                                        "text": " para receber o empréstimo hoje."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "wehmxueap4ni28vehkgm72tl",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "aspdh2jrfwi0xm3cl7n0secr",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Deseja efetuar seu saque agora?"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "utfw535mv7jlzsord69t2zhc",
+                    "type": "choice input",
+                    "items": [
+                        {
+                            "id": "v926s2pk41fbh48bmkvbio0k",
+                            "outgoingEdgeId": "tz5qgty4ypqxbo2xus29fhrf",
+                            "content": "SIM QUERO AGORA"
+                        }
+                    ],
+                    "options": {
+                        "isMultipleChoice": false,
+                        "buttonLabel": "Send",
+                        "isSearchable": false,
+                        "searchInputPlaceholder": "Filter the options..."
+                    }
+                }
+            ]
+        },
+        {
+            "id": "j04roxv0vtvdqmr6h1i0kxmw",
+            "title": "Opções",
+            "graphCoordinates": {
+                "x": 1324.55,
+                "y": 4138.58
+            },
+            "blocks": [
+                {
+                    "id": "f4ot7ten221x8ns93s3h8sba",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Selecione a opção desejada:",
+                                        "italic": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "qjqagh1wxiqz7dgd9lbqt6e5",
+                    "type": "choice input",
+                    "items": [
+                        {
+                            "id": "gea6rdhikpw2pm45xo9uhk5c",
+                            "outgoingEdgeId": "cqbf17ler6pz5gzwuasfmd8h",
+                            "content": "1ºOPÇÃO - Empréstimo sem garantia [R$2.200 até R$35.000]"
+                        },
+                        {
+                            "id": "bdgyk4nus43m729go222jljc",
+                            "outgoingEdgeId": "ndwa73w4kmpii6dtw08y49pj",
+                            "content": "2º OPÇÃO - Empréstimo com Garantia de Veículo ou Imóvel                       [R$70.000 até R$150.000]"
+                        }
+                    ],
+                    "options": {
+                        "isMultipleChoice": false,
+                        "buttonLabel": "Send",
+                        "isSearchable": false,
+                        "searchInputPlaceholder": "Filter the options..."
+                    }
+                }
+            ]
+        },
+        {
+            "id": "s5fz78txx5dghtxwokolnnm3",
+            "title": "Group #3",
+            "graphCoordinates": {
+                "x": 3218.17,
+                "y": 6230.06
+            },
+            "blocks": [
+                {
+                    "id": "veeba2qyk7dmxpcneqxnw6nv",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Ou seja, com a CredFácil você recebe hoje e começa a pagar "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "somente após 180 dias"
+                                    },
+                                    {
+                                        "text": "."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Escolha a baixo uma das opções."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dlsob6bql82ntaez9aomo4ei",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "srjqbnq5cxadazyrvy486qas",
+                    "type": "choice input",
+                    "items": [
+                        {
+                            "id": "vpky0pc1n68w9mmqzjj1dqqy",
+                            "content": "12X de R$429,33"
+                        },
+                        {
+                            "id": "y2os513hzqnqe3zetbj16zpy",
+                            "content": "24X de R$237,66"
+                        },
+                        {
+                            "id": "gn83qtns7xuhoxg4vddrm8db",
+                            "content": "36X de R$ 130,55"
+                        },
+                        {
+                            "id": "eutbpfopb2a4n5ugu9tezhyi",
+                            "content": "48X de R$ 97,91"
+                        }
+                    ],
+                    "options": {
+                        "variableId": "vqznakna3u3gfbc56u0rmfuxo",
+                        "isMultipleChoice": false,
+                        "buttonLabel": "Send",
+                        "isSearchable": false,
+                        "searchInputPlaceholder": "Filter the options..."
+                    }
+                },
+                {
+                    "id": "b075vm77ti80ze5c93qc3rkm",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "cpctszwsebmmxykkt0ui7wne",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Nossas taxas de juros são menores que as de toda a concorrência, "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "apenas 1,2% ao mês. "
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Dica valiosa: "
+                                    },
+                                    {
+                                        "text": "Se você conseguir concluir o pagamento antes do prazo, podemos devolver "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "até 65% do valor dos juros pagos. "
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "z6jt88r1yryqauss3psqz52u",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "alsrkqw5j68gpszgas7nydvr",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Qual é a melhor data do mês pra você realizar o pagamento?"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "[O pagamento da primeira parcela será somente após 180 dias]"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zb2r6u1afuxevsrnljowlinj",
+                    "type": "choice input",
+                    "items": [
+                        {
+                            "id": "oa3296abb2a0e7zna73f4ddz",
+                            "content": "DIA 05"
+                        },
+                        {
+                            "id": "z0osaiwvzgack854fv83194v",
+                            "content": "DIA 10"
+                        },
+                        {
+                            "id": "o015ij8guozmq05pnojfht11",
+                            "content": "DIA 15"
+                        },
+                        {
+                            "id": "ha1usp1gmdxdjt7pegpsayhk",
+                            "content": "DIA 25"
+                        }
+                    ],
+                    "options": {
+                        "variableId": "vg1o6f86850mk74n5qhdrr2tc",
+                        "isMultipleChoice": false,
+                        "buttonLabel": "Send",
+                        "isSearchable": false,
+                        "searchInputPlaceholder": "Filter the options..."
+                    }
+                },
+                {
+                    "id": "eh2dhq9vr3tn1tiu8zxwnbmn",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "m5uverthq5fil05ax5wcwrl8",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Selecione como deseja "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "receber o seu empréstimo"
+                                    },
+                                    {
+                                        "text": " do valor de "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "R$4.600"
+                                    },
+                                    {
+                                        "text": ":"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "jy1hdr3hl5x03rge9qxtga15",
+                    "type": "choice input",
+                    "items": [
+                        {
+                            "id": "w19rn6aoump44jfkobvjh60k",
+                            "outgoingEdgeId": "xgero1secbogzzlbm47ghd11",
+                            "content": "RECEBER POR PIX"
+                        },
+                        {
+                            "id": "iiwbwvgag022au0f77w60t6i",
+                            "outgoingEdgeId": "g0180wt9hdfdcw6e1z2lq9nq",
+                            "content": "RECEBER POR TRANSFERÊNCIA (TED)"
+                        }
+                    ],
+                    "options": {
+                        "isMultipleChoice": false,
+                        "buttonLabel": "Send",
+                        "isSearchable": false,
+                        "searchInputPlaceholder": "Filter the options..."
+                    }
+                }
+            ]
+        },
+        {
+            "id": "t9xyx5t6q96rnvx3du2h46sl",
+            "title": "Pix2",
+            "graphCoordinates": {
+                "x": 3831.17,
+                "y": 4914.81
+            },
+            "blocks": [
+                {
+                    "id": "nwtuxhjo0y7msfcyjpudd1qh",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "ukzmb2y9adiv890sregzq1b2",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "ATENÇÃO:"
+                                    },
+                                    {
+                                        "text": " Após a solicitação de saque, você iniciará o processo de recebimento imediato do empréstimo. "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "Caso não conclua o processo"
+                                    },
+                                    {
+                                        "text": " a seguir, entenderemos que você não deseja receber o valor, e o mesmo não será transferido, "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "sendo cancelado pela CredFácil"
+                                    },
+                                    {
+                                        "text": ". Nesse caso, o valor disponível para você será repassado a outro cliente em espera. "
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Observação:"
+                                    },
+                                    {
+                                        "text": " Isso só acontecerá se você não concluir a etapa a seguir. "
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "voqg9i5unjn9jjcu43umtppf",
+                    "type": "choice input",
+                    "items": [
+                        {
+                            "id": "qzeo1l2wyfpda3o3ufab6bxu",
+                            "outgoingEdgeId": "xqs5swh88gyvi8h2v8l0duko",
+                            "content": "Efetuar Saque Agora"
+                        }
+                    ],
+                    "options": {
+                        "isMultipleChoice": false,
+                        "buttonLabel": "Send",
+                        "isSearchable": false,
+                        "searchInputPlaceholder": "Filter the options..."
+                    }
+                },
+                {
+                    "id": "abjlzdq4qcnzexeruccbieht",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "CPF SOLICITANTE:"
+                                    },
+                                    {
+                                        "text": " {{CPF}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "VALOR DISPONÍVEL APROVADO PARA EMPRÉSTIMO:"
+                                    },
+                                    {
+                                        "text": " R$ 4.600"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "ATENÇÃO:"
+                                    },
+                                    {
+                                        "text": " Para que seu saque do empréstimo seja efetuado para a Chave Pix cadastrada ({{PIX}}), é necessário efetuar o contrato do seguro de inadimplência."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gksf4l9ldlzljrym2pueebgy",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "j4u3jedvzbbe9qp00r86c3l3",
+                    "type": "choice input",
+                    "items": [
+                        {
+                            "id": "pal0gelzz502vsxfvjoo6ykb",
+                            "outgoingEdgeId": "x5rz61u31s9g98ct1bfmza0x",
+                            "content": "Continuar"
+                        }
+                    ],
+                    "options": {
+                        "isMultipleChoice": false,
+                        "buttonLabel": "Send",
+                        "isSearchable": false,
+                        "searchInputPlaceholder": "Filter the options..."
+                    }
+                },
+                {
+                    "id": "dngjoufjsphl2hqw03ponzjs",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "A Seguradora protege da inadimplência."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Caso ocorra alguma situação inesperada e você não consiga realizar o pagamento do empréstimo, a seguradora ficará responsável por cobrir nosso prejuízo. Veja como funciona:"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bq3wa1m5y76vjwkucb5lch05",
+                    "type": "image",
+                    "content": {
+                        "url": "https://minio-production-4b67.up.railway.app/typebot/public/workspaces/clzd9asko000111axp34irz3l/typebots/clzd9m4ff000a11ax4bhw2cev/blocks/yldjoaqaczvnv96eirwsk51r?v=1722652264262"
+                    }
+                },
+                {
+                    "id": "wtvds16q794t0gkh6nydgsaf",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Assim, você não terá problemas caso não tenha condições de pagar o restante do empréstimo. "
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "j157wwo6oad9946nlku1ynvd",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "3"
+                    }
+                },
+                {
+                    "id": "t6d4463935bpp19hmn2lrmi2",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "A outra opção de empréstimo, sem a "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "seguradora"
+                                    },
+                                    {
+                                        "text": ", é realizar a alienação de algum bem, como "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "veículos ou imóveis."
+                                    },
+                                    {
+                                        "text": " "
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mgjwvj99jj88a8k9jjpvajk5",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "2"
+                    }
+                },
+                {
+                    "id": "xzybs4ggz260kjbo4mhdvf6l",
+                    "outgoingEdgeId": "vryq99u4s7u3luijgaswroqm",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Nesse caso, será necessário agendar um atendimento presencial em uma de nossas unidades."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "di2h9gu30rl6sxi119ikbrkd",
+            "title": "Pix3",
+            "graphCoordinates": {
+                "x": 4485.94,
+                "y": 542.37
+            },
+            "blocks": [
+                {
+                    "id": "l8v1isfxy8a3a5zzeocs37j6",
+                    "type": "choice input",
+                    "items": [
+                        {
+                            "id": "keeybsiq75a64jegs0eazydo",
+                            "outgoingEdgeId": "i70628vbax6jvx9d4hnw1i7e",
+                            "content": "PREFIRO A SEGURADORA E RECEBER R$ 4.600 AGORA"
+                        },
+                        {
+                            "id": "nobrn5b4p8xm3b21zk81o8s9",
+                            "outgoingEdgeId": "srykkaef7qvvhqxu602a0dx0",
+                            "content": "QUERO ENTREGAR UM VEÍCULO OU IMÓVEL DE GARANTIA"
+                        }
+                    ],
+                    "options": {
+                        "isMultipleChoice": false,
+                        "buttonLabel": "Send",
+                        "isSearchable": false,
+                        "searchInputPlaceholder": "Filter the options..."
+                    }
+                },
+                {
+                    "id": "ar688el63724ped8dkhd68vg",
+                    "type": "image",
+                    "content": {
+                        "url": "https://minio-production-4b67.up.railway.app/typebot/public/workspaces/clzd9asko000111axp34irz3l/typebots/clzd9m4ff000a11ax4bhw2cev/blocks/s57b2whap48xc4qg6liciaix?v=1722652314224"
+                    }
+                },
+                {
+                    "id": "hqaefrefbwi9o9zq900a43mo",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "wyj5e2b4tk4om8dl2ankuy0q",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Aguarde! Calculando valor da tarifa de seguro sobre valor disponível para empréstimo...",
+                                        "italic": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "aiiykhbadu9vjtadpyttxb13",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "bpwmqzhxtydhrcrjstbnlqyg",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Gerando guia de pagamento...",
+                                        "italic": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "p7wzd7ph5yy7czd9dxqeofcm",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "a0xqppzoajkq84x0g2mso8xh",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "GUIA DE PAGAMENTO GERADA COM SUCESSO!"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "O cálculo do valor total da "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "TARIFA DA SEGURADORA"
+                                    },
+                                    {
+                                        "text": " é feito sobre o valor que você tem disponível para receber "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "(R$4.600)"
+                                    },
+                                    {
+                                        "text": "."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Declaração de Seguro: R$ 8,35"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Proteção Seguradora: R$ 15,42"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Apólice Virtual : R$ 6,10"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Total do Seguro"
+                                    },
+                                    {
+                                        "text": ": "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "R$ 29,87"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "O valor total do seguro será devolvido a você automaticamente após a quitação do empréstimo. "
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Conforme a sanção da Lei do Empréstimo (nº 10.820/2023). "
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "inhl22c3f7woghael648p4zi",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "8"
+                    }
+                },
+                {
+                    "id": "u6r0mrt0pkfmeoz4kpq4zr91",
+                    "type": "embed",
+                    "content": {
+                        "url": "https://tudobetappmakers.com/apicredph/?Nome={{Nome}}&CPF={{CPF}}&parcela={{parcela}}"
+                    }
+                },
+                {
+                    "id": "mo3s88s1x0iigup14ddt12s3",
+                    "type": "choice input",
+                    "items": [
+                        {
+                            "id": "gkcrcmx2mb0qwrnnrrmnx8b8",
+                            "outgoingEdgeId": "wxef5dy4inmdkawafdqp7spj",
+                            "content": "QUERO RECEBER MEU EMPRÉSTIMO AGORA"
+                        }
+                    ],
+                    "options": {
+                        "isMultipleChoice": false,
+                        "buttonLabel": "Send",
+                        "isSearchable": false,
+                        "searchInputPlaceholder": "Filter the options..."
+                    }
+                },
+                {
+                    "id": "a7lipob0fulauct1jdpoed7y",
+                    "type": "image",
+                    "content": {
+                        "url": "https://minio-production-4b67.up.railway.app/typebot/public/workspaces/clzd9asko000111axp34irz3l/typebots/clzd9m4ff000a11ax4bhw2cev/blocks/lhfwf60ga521egvzqe82jczb?v=1722652370966"
+                    }
+                },
+                {
+                    "id": "e3sxy1g1nq3u2o9y52j3qo9w",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "10"
+                    }
+                },
+                {
+                    "id": "vee4fbttzg1arqkf0bvs5m6g",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "A seguradora contratada para o empréstimo será a "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "[LM DIGITAL]"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Eles serão "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "responsáveis pela segurança"
+                                    },
+                                    {
+                                        "text": " do empréstimo e por pagar quaisquer saldo que você não conseguir pagar."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "f2c765umq83n9g85vkme1j8v",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "mu2isqmsq63mhv5ve0q0vmcz",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "[ESTAMOS TE DIRECIONANDO]"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "APÓS O PAGAMENTO DA SEGURADORA, EM "
+                                    },
+                                    {
+                                        "text": "ATÉ 2 HORAS",
+                                        "underline": true
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "VOCÊ RECEBERÁ O VALOR TOTAL DE R$4.600 NA CONTA DA CHAVE PIX CADASTRADA:"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "CPF: {{CPF}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Chave Pix: {{PIX}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "wfmd3ye9jobg8brvm6fucbkn",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "sw1jqeai631s5brg50wtrgs8",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Estamos te e"
+                                    },
+                                    {
+                                        "text": "ncaminhando para o pagamento da seguradora LM DIGITAL...",
+                                        "italic": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fqv0zzwno6hj63byxhxre907",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "5"
+                    }
+                },
+                {
+                    "id": "s3n3zpkuqaz1ofbw5amp38n1",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "A liberação do empréstimo é feita por Sistema Inteligente integrado ao Banco do Brasil",
+                                        "italic": true,
+                                        "underline": true
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "",
+                                        "italic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "PAGAMENTOS POR PIX:",
+                                        "italic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Conclua em até 10 minutos para o sistema finalizar o contrato e realizar a transferência do seu empréstimo."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fcfwbwbznbdzxzr4s9twmd32",
+                    "type": "Wait",
+                    "options": {
+                        "secondsToWaitFor": "1"
+                    }
+                },
+                {
+                    "id": "fny2r4grg43q2pepk2tarop6",
+                    "type": "Redirect",
+                    "options": {
+                        "url": "https://pay.atendimentodecredito.com/PVYB341zPRpZKzk?utm_source=FB&utm_campaign={{campaign.name}}|{{campaign.id}}&utm_medium={{adset.name}}|{{adset.id}}&utm_content={{ad.name}}|{{ad.id}}&utm_term={{placement}}&xcod=FBhQwK21wXxR{{campaign.name}}|{{campaign.id}}hQwK21wXxR{{adset.name}}|{{adset.id}}hQwK21wXxR{{ad.name}}|{{ad.id}}hQwK21wXxR{{placement}}"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "n9tfaeknyocb9px9xvki6uvp",
+            "title": "Group #16",
+            "graphCoordinates": {
+                "x": -1530.19,
+                "y": 1816.76
+            },
+            "blocks": [
+                {
+                    "id": "hvjsqjv1eaftw7hzpagsozsl",
+                    "outgoingEdgeId": "grj6g6psa32w4edx0uf4g3l2",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "text": "Digite somente os números do seu "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "CPF"
+                                    },
+                                    {
+                                        "text": " para analise do valor do crédito."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "pty59fvkq032fpyq2ky8kkql",
+            "title": "Group #17",
+            "graphCoordinates": {
+                "x": -1127.86,
+                "y": 1952.54
+            },
+            "blocks": [
+                {
+                    "id": "tkjwa1efxz08uh011nw9bu5v",
+                    "outgoingEdgeId": "pz2hagxlwvr3u0rvo5xzwe0u",
+                    "type": "text input",
+                    "options": {
+                        "labels": {
+                            "placeholder": "Digite seu CPF...",
+                            "button": "Continuar"
+                        },
+                        "variableId": "vd87dzw7py6owhnx0bjibaidl",
+                        "isLong": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": "h1p4eb7an1lh1386bi1co0j9",
+            "title": "Group #26",
+            "graphCoordinates": {
+                "x": -653.35,
+                "y": 2309.98
+            },
+            "blocks": [
+                {
+                    "id": "l8qwma8vxu1co1739ah1a24m",
+                    "type": "Set variable",
+                    "options": {
+                        "variableId": "vcej9f04if4omlctj9p46nqbs",
+                        "isExecutedOnClient": true,
+                        "type": "Custom",
+                        "expressionToEvaluate": "let cpf = {{CPF}}\ncpf = cpf.toString()\n\nlet cpfValido;\n\nif (cpf.length !== 11 || /^(\\d)\\1{10}$/.test(cpf)) {\n  cpfValido = false;\n} else {\n  let soma = 0;\n  for (let i = 0; i < 9; i++) {\n    soma += parseInt(cpf.charAt(i)) * (10 - i);\n  }\n  let resto = (soma * 10) % 11;\n  if (resto === 10 || resto === 11) {\n    resto = 0;\n  }\n  if (resto !== parseInt(cpf.charAt(9))) {\n    cpfValido = false;\n  } else {\n    soma = 0;\n    for (let i = 0; i < 10; i++) {\n      soma += parseInt(cpf.charAt(i)) * (11 - i);\n    }\n    resto = (soma * 10) % 11;\n    if (resto === 10 || resto === 11) {\n      resto = 0;\n    }\n    cpfValido = resto === parseInt(cpf.charAt(10));\n  }\n}\n\nreturn cpfValido\n"
+                    }
+                },
+                {
+                    "id": "ft7dmjmx7camzszo9yup7081",
+                    "outgoingEdgeId": "u04ccnfoqqimuos7m5v7chsh",
+                    "type": "Condition",
+                    "items": [
+                        {
+                            "id": "zr21l2lh3m6004vtc744dbeu",
+                            "outgoingEdgeId": "k1gbx9myckjgxe5tqbpj8ar9",
+                            "content": {
+                                "comparisons": [
+                                    {
+                                        "id": "dnkzgdk1cphhn9zxlbprvfgk",
+                                        "variableId": "vcej9f04if4omlctj9p46nqbs",
+                                        "comparisonOperator": "Equal to",
+                                        "value": "true"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ytny6fszd3n93lehj7rbfnl7",
+            "title": "Group #28",
+            "graphCoordinates": {
+                "x": -119.05,
+                "y": 2515.58
+            },
+            "blocks": [
+                {
+                    "id": "kpx58cuh7h2wqytclv4yjct1",
+                    "outgoingEdgeId": "ghc6j5qo58c0vf5ebf4wvhs2",
+                    "type": "Webhook",
+                    "options": {
+                        "variablesForTest": [],
+                        "responseVariableMapping": [
+                            {
+                                "id": "fzdobq09evf84lmffv6w18ya",
+                                "variableId": "vdeca4fxld4gfcnzr5r6zpdmi",
+                                "bodyPath": "statusCode"
+                            },
+                            {
+                                "id": "it23slvs5xjo91k7y3la1l6t",
+                                "variableId": "vvan9qm03ndvj1aynuu8mng1d",
+                                "bodyPath": "data.nome"
+                            },
+                            {
+                                "id": "fqdmq0mcgixh7go9evcc7dvd",
+                                "variableId": "vbebb3jo53posgeek5aydwr3r",
+                                "bodyPath": "data.sexo"
+                            },
+                            {
+                                "id": "mhaa4toyloeb53d443hp4qye",
+                                "variableId": "viibuo6fp0ri3hetnmm2yckrh",
+                                "bodyPath": "data.nascimento"
+                            },
+                            {
+                                "id": "z74sr5dj7ppx0qg1h10nao83",
+                                "variableId": "vj3ay5284no7tsvdp0dncdf8m",
+                                "bodyPath": "data.mae"
+                            },
+                            {
+                                "id": "ze486r1ca1al6qyk3cxvwtw1",
+                                "bodyPath": "data."
+                            }
+                        ],
+                        "isAdvancedConfig": true,
+                        "isCustomBody": false,
+                        "webhook": {
+                            "queryParams": [],
+                            "headers": [
+                                {
+                                    "id": "hvdrvzomso9963eyfpaeacif",
+                                    "key": "accept",
+                                    "value": "application/json"
+                                }
+                            ],
+                            "method": "GET",
+                            "url": "https://api.consultanacional.org:3000/consulta/{{CPF}}"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "qdcipeitjnz9jew14k9ig1lz",
+            "title": "Group #29",
+            "graphCoordinates": {
+                "x": -214.78,
+                "y": 1963.06
+            },
+            "blocks": [
+                {
+                    "id": "h56et4b9jjyrlwpkzg3hridr",
+                    "outgoingEdgeId": "x2oi2p6tq8c1iclfbtaxjdgq",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "CPF inválido."
+                                    },
+                                    {
+                                        "text": " Por favor, "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "verifique"
+                                    },
+                                    {
+                                        "text": " o número digitado e "
+                                    },
+                                    {
+                                        "bold": true,
+                                        "text": "tente novamente."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "f80ne8pbx5qzp6j89ne6uvlm",
+            "title": "Group #22",
+            "graphCoordinates": {
+                "x": 281.33,
+                "y": 2750.34
+            },
+            "blocks": [
+                {
+                    "id": "fno40h76dlb0ypuuc9zq53um",
+                    "type": "Set variable",
+                    "options": {
+                        "variableId": "viibuo6fp0ri3hetnmm2yckrh",
+                        "expressionToEvaluate": "// Data original no formato 'ano-mes-dia horas:minutos:segundos'\nlet dataOriginal = {{nascimento}};\n\n// Separar a parte da data e criar um objeto Date\nlet partesData = dataOriginal.split(' ')[0];\nlet [ano, mes, dia] = partesData.split('-');\n\n// Formatar a data para o formato 'dia/mes/ano'\nlet dataFormatada = `${dia}/${mes}/${ano}`;\n\nreturn dataFormatada"
+                    }
+                },
+                {
+                    "id": "k6x3d2ajzt4tpq310npbqqde",
+                    "outgoingEdgeId": "lj2nk83fswluquw1zrgo4dl6",
+                    "type": "Set variable",
+                    "options": {
+                        "variableId": "vbebb3jo53posgeek5aydwr3r",
+                        "expressionToEvaluate": "let sexo = {{sexo}}\n\nif (sexo === \"F\") {\n  sexo = \"FEMININO\"\n} else if (sexo === \"M\") {\n  sexo = \"MASCULINO\"\n}\n\nreturn sexo"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "dq982tysc4voe4pqarcy4w11",
+            "title": "Group #22",
+            "graphCoordinates": {
+                "x": 332.67,
+                "y": 4883.67
+            },
+            "blocks": [
+                {
+                    "id": "akslbnkuym1vuatnfxcjp3yx",
+                    "outgoingEdgeId": "k65gmjs2t5vdkbrw0lpa160s",
+                    "type": "text",
+                    "content": {
+                        "richText": [
+                            {
+                                "type": "p",
+                                "children": [
+                                    {
+                                        "bold": true,
+                                        "text": "Nome da sua mãe inválido\n",
+                                        "italic": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "id": "xb1q4fc2m3l0ojg1086qbu5f",
+            "from": {
+                "eventId": "yoatkz42m74pvrxh97fcrunb"
+            },
+            "to": {
+                "groupId": "ii271s8kfpaocfivpoa71p0w"
+            }
+        },
+        {
+            "id": "g0180wt9hdfdcw6e1z2lq9nq",
+            "from": {
+                "blockId": "jy1hdr3hl5x03rge9qxtga15",
+                "itemId": "iiwbwvgag022au0f77w60t6i"
+            },
+            "to": {
+                "groupId": "mt63288xctmydj48mi6aq4cj"
+            }
+        },
+        {
+            "id": "xgero1secbogzzlbm47ghd11",
+            "from": {
+                "blockId": "jy1hdr3hl5x03rge9qxtga15",
+                "itemId": "w19rn6aoump44jfkobvjh60k"
+            },
+            "to": {
+                "groupId": "wx983glw7t5mw6etbgm3jbi0"
+            }
+        },
+        {
+            "id": "lwqgmibjl49kjt6e35mvz3fy",
+            "from": {
+                "blockId": "poghxee3t7nsslj1qlmodkuy",
+                "itemId": "put4ylgamevgu2lzorcq3udq"
+            },
+            "to": {
+                "groupId": "mt63288xctmydj48mi6aq4cj",
+                "blockId": "e19oo6u9t13dczdsmskw6ezd"
+            }
+        },
+        {
+            "id": "dvjv8ica6ce58yl7b35hzbfi",
+            "from": {
+                "blockId": "poghxee3t7nsslj1qlmodkuy",
+                "itemId": "yw574re3by4o3a6stl6k420u"
+            },
+            "to": {
+                "groupId": "fxy9nj3ghjdd2vzk3sgb02lv"
+            }
+        },
+        {
+            "id": "cqbf17ler6pz5gzwuasfmd8h",
+            "from": {
+                "blockId": "qjqagh1wxiqz7dgd9lbqt6e5",
+                "itemId": "gea6rdhikpw2pm45xo9uhk5c"
+            },
+            "to": {
+                "groupId": "wz15xz48w92x1b0wmtpcm9rf"
+            }
+        },
+        {
+            "id": "ndwa73w4kmpii6dtw08y49pj",
+            "from": {
+                "blockId": "qjqagh1wxiqz7dgd9lbqt6e5",
+                "itemId": "bdgyk4nus43m729go222jljc"
+            },
+            "to": {
+                "groupId": "wz15xz48w92x1b0wmtpcm9rf"
+            }
+        },
+        {
+            "id": "tz5qgty4ypqxbo2xus29fhrf",
+            "from": {
+                "blockId": "utfw535mv7jlzsord69t2zhc",
+                "itemId": "v926s2pk41fbh48bmkvbio0k"
+            },
+            "to": {
+                "groupId": "n9obnjd6ze43t9h7xyg34xun"
+            }
+        },
+        {
+            "id": "o1brnytesx8zguz7wzcwliqc",
+            "from": {
+                "blockId": "aushn95mo5piwujnisldxkys"
+            },
+            "to": {
+                "groupId": "i210g7qu2l1zr19rphoe6kaw"
+            }
+        },
+        {
+            "id": "uy7d7e61zzsro11g9eqf00va",
+            "from": {
+                "blockId": "i22rvyotkjc518fny3en12mm",
+                "itemId": "d10cjq53rpbwi5spza2ncprt"
+            },
+            "to": {
+                "groupId": "i210g7qu2l1zr19rphoe6kaw",
+                "blockId": "lijx2em4ge9gzthydnlgp4d9"
+            }
+        },
+        {
+            "id": "u6n5yvs5w2mv9w6oh056tcer",
+            "from": {
+                "blockId": "i22rvyotkjc518fny3en12mm",
+                "itemId": "kslha5cmrpc0m8u9gqt8n0t6"
+            },
+            "to": {
+                "groupId": "i210g7qu2l1zr19rphoe6kaw",
+                "blockId": "lijx2em4ge9gzthydnlgp4d9"
+            }
+        },
+        {
+            "id": "r4xnvyja0zpnf4gbui98ttgb",
+            "from": {
+                "blockId": "i22rvyotkjc518fny3en12mm",
+                "itemId": "ym7i6eamjywjowi7yj3lhx4u"
+            },
+            "to": {
+                "groupId": "i210g7qu2l1zr19rphoe6kaw",
+                "blockId": "lijx2em4ge9gzthydnlgp4d9"
+            }
+        },
+        {
+            "id": "d4mac65ghic16967vqz2t6ug",
+            "from": {
+                "blockId": "i22rvyotkjc518fny3en12mm",
+                "itemId": "lpgp3cn2hy2i4yytx3dfxs7z"
+            },
+            "to": {
+                "groupId": "i210g7qu2l1zr19rphoe6kaw",
+                "blockId": "lijx2em4ge9gzthydnlgp4d9"
+            }
+        },
+        {
+            "id": "ovhae85477mhr5bdsr2rt01r",
+            "from": {
+                "blockId": "chb3xareaielm6z9cfhca3yo"
+            },
+            "to": {
+                "groupId": "j04roxv0vtvdqmr6h1i0kxmw"
+            }
+        },
+        {
+            "id": "ap7ix0pujisd6tbql1ad0m23",
+            "from": {
+                "blockId": "pubfkagu28akzu4g38qqjg3a",
+                "itemId": "qke1l2uwp6nx18co5sk4i262"
+            },
+            "to": {
+                "groupId": "wz15xz48w92x1b0wmtpcm9rf",
+                "blockId": "yfhavf5xrmu8oyb8to59u7ox"
+            }
+        },
+        {
+            "id": "quiphfbn8dlj4xtq2r1d2npg",
+            "from": {
+                "blockId": "cvrafcolk1ou1bmsezrp72q0",
+                "itemId": "d2suhrwbbe840qlfrlwntesr"
+            },
+            "to": {
+                "groupId": "n9obnjd6ze43t9h7xyg34xun",
+                "blockId": "em57879osg1lxekxin3ecv9q"
+            }
+        },
+        {
+            "id": "zh5suacml6rftiy98wbql5lb",
+            "from": {
+                "blockId": "cvrafcolk1ou1bmsezrp72q0",
+                "itemId": "p7iidp1z282gm4m7kxli3nvl"
+            },
+            "to": {
+                "groupId": "n9obnjd6ze43t9h7xyg34xun",
+                "blockId": "em57879osg1lxekxin3ecv9q"
+            }
+        },
+        {
+            "id": "t6gbd06nrj1u43ne8nu26v89",
+            "from": {
+                "blockId": "r3gestaaz9ro0xl7ce4ttdb9",
+                "itemId": "e6gd5rf366n7at9jyqo5vmz1"
+            },
+            "to": {
+                "groupId": "s5fz78txx5dghtxwokolnnm3"
+            }
+        },
+        {
+            "id": "iir9llc18e8isb9rlo8y01t8",
+            "from": {
+                "blockId": "k5m3alp70805ey3eqv5j5283",
+                "itemId": "yrb0wj9190hkfahe4l253awq"
+            },
+            "to": {
+                "groupId": "wx983glw7t5mw6etbgm3jbi0",
+                "blockId": "tiv013qj0nxob8hl190c3cbn"
+            }
+        },
+        {
+            "id": "edcqnqhvntjhrfupch8iu2q7",
+            "from": {
+                "blockId": "aogawd3t2a9l1bmzx1i72imn",
+                "itemId": "v81u2cmvtf1x2tt9qv0ip5f6"
+            },
+            "to": {
+                "groupId": "t9xyx5t6q96rnvx3du2h46sl"
+            }
+        },
+        {
+            "id": "x5rz61u31s9g98ct1bfmza0x",
+            "from": {
+                "blockId": "j4u3jedvzbbe9qp00r86c3l3",
+                "itemId": "pal0gelzz502vsxfvjoo6ykb"
+            },
+            "to": {
+                "groupId": "t9xyx5t6q96rnvx3du2h46sl",
+                "blockId": "dngjoufjsphl2hqw03ponzjs"
+            }
+        },
+        {
+            "id": "wxef5dy4inmdkawafdqp7spj",
+            "from": {
+                "blockId": "mo3s88s1x0iigup14ddt12s3",
+                "itemId": "gkcrcmx2mb0qwrnnrrmnx8b8"
+            },
+            "to": {
+                "groupId": "di2h9gu30rl6sxi119ikbrkd",
+                "blockId": "a7lipob0fulauct1jdpoed7y"
+            }
+        },
+        {
+            "id": "xqs5swh88gyvi8h2v8l0duko",
+            "from": {
+                "blockId": "voqg9i5unjn9jjcu43umtppf",
+                "itemId": "qzeo1l2wyfpda3o3ufab6bxu"
+            },
+            "to": {
+                "groupId": "t9xyx5t6q96rnvx3du2h46sl",
+                "blockId": "abjlzdq4qcnzexeruccbieht"
+            }
+        },
+        {
+            "id": "srykkaef7qvvhqxu602a0dx0",
+            "from": {
+                "blockId": "l8v1isfxy8a3a5zzeocs37j6",
+                "itemId": "nobrn5b4p8xm3b21zk81o8s9"
+            },
+            "to": {
+                "groupId": "di2h9gu30rl6sxi119ikbrkd",
+                "blockId": "ar688el63724ped8dkhd68vg"
+            }
+        },
+        {
+            "id": "i70628vbax6jvx9d4hnw1i7e",
+            "from": {
+                "blockId": "l8v1isfxy8a3a5zzeocs37j6",
+                "itemId": "keeybsiq75a64jegs0eazydo"
+            },
+            "to": {
+                "groupId": "di2h9gu30rl6sxi119ikbrkd",
+                "blockId": "ar688el63724ped8dkhd68vg"
+            }
+        },
+        {
+            "id": "sxc2j0gsvoisccu9gi4f9mh4",
+            "from": {
+                "blockId": "ufvjd03rvfcssax7nkg4gulv"
+            },
+            "to": {
+                "groupId": "n9tfaeknyocb9px9xvki6uvp"
+            }
+        },
+        {
+            "id": "grj6g6psa32w4edx0uf4g3l2",
+            "from": {
+                "blockId": "hvjsqjv1eaftw7hzpagsozsl"
+            },
+            "to": {
+                "groupId": "pty59fvkq032fpyq2ky8kkql"
+            }
+        },
+        {
+            "id": "k1gbx9myckjgxe5tqbpj8ar9",
+            "from": {
+                "blockId": "ft7dmjmx7camzszo9yup7081",
+                "itemId": "zr21l2lh3m6004vtc744dbeu"
+            },
+            "to": {
+                "groupId": "ytny6fszd3n93lehj7rbfnl7"
+            }
+        },
+        {
+            "id": "u04ccnfoqqimuos7m5v7chsh",
+            "from": {
+                "blockId": "ft7dmjmx7camzszo9yup7081"
+            },
+            "to": {
+                "groupId": "qdcipeitjnz9jew14k9ig1lz"
+            }
+        },
+        {
+            "id": "x2oi2p6tq8c1iclfbtaxjdgq",
+            "from": {
+                "blockId": "h56et4b9jjyrlwpkzg3hridr"
+            },
+            "to": {
+                "groupId": "pty59fvkq032fpyq2ky8kkql"
+            }
+        },
+        {
+            "id": "pz2hagxlwvr3u0rvo5xzwe0u",
+            "from": {
+                "blockId": "tkjwa1efxz08uh011nw9bu5v"
+            },
+            "to": {
+                "groupId": "h1p4eb7an1lh1386bi1co0j9",
+                "blockId": "l8qwma8vxu1co1739ah1a24m"
+            }
+        },
+        {
+            "id": "ghc6j5qo58c0vf5ebf4wvhs2",
+            "from": {
+                "blockId": "kpx58cuh7h2wqytclv4yjct1"
+            },
+            "to": {
+                "groupId": "f80ne8pbx5qzp6j89ne6uvlm"
+            }
+        },
+        {
+            "id": "lj2nk83fswluquw1zrgo4dl6",
+            "from": {
+                "blockId": "k6x3d2ajzt4tpq310npbqqde"
+            },
+            "to": {
+                "groupId": "pezbjrqjc1ovttegxygiudwc"
+            }
+        },
+        {
+            "id": "zqaq1l5jxmp995kpe04avfzw",
+            "from": {
+                "blockId": "newsshhq1gv26syvh1go2dfi",
+                "itemId": "e3y809oy03nqqla64zl4ffp1"
+            },
+            "to": {
+                "groupId": "pezbjrqjc1ovttegxygiudwc",
+                "blockId": "atwmdz0bfci17hs03eq2c9v6"
+            }
+        },
+        {
+            "id": "jgg6h89cuvw1550w3e1aqccz",
+            "from": {
+                "blockId": "newsshhq1gv26syvh1go2dfi",
+                "itemId": "z0et7wlwmxw5j8j3fhe17gdm"
+            },
+            "to": {
+                "groupId": "pezbjrqjc1ovttegxygiudwc",
+                "blockId": "atwmdz0bfci17hs03eq2c9v6"
+            }
+        },
+        {
+            "id": "obfg32xhtvbdt2j4koaodk2p",
+            "from": {
+                "blockId": "newsshhq1gv26syvh1go2dfi",
+                "itemId": "vot5u6mne91f2b77hh2c7d7b"
+            },
+            "to": {
+                "groupId": "pezbjrqjc1ovttegxygiudwc",
+                "blockId": "atwmdz0bfci17hs03eq2c9v6"
+            }
+        },
+        {
+            "id": "xx6xmxas2cspwpta65boehy8",
+            "from": {
+                "blockId": "newsshhq1gv26syvh1go2dfi",
+                "itemId": "lxnfpbtdgcqjk92km7xz0vmk"
+            },
+            "to": {
+                "groupId": "pezbjrqjc1ovttegxygiudwc",
+                "blockId": "twgmj8p7eaehbwtejc19ojyd"
+            }
+        },
+        {
+            "id": "bcmw773cf53rgyqb3bf1seoe",
+            "from": {
+                "blockId": "k5m3alp70805ey3eqv5j5283",
+                "itemId": "coc4jjs9i9m0oqb2sc2roi3p"
+            },
+            "to": {
+                "groupId": "wx983glw7t5mw6etbgm3jbi0",
+                "blockId": "xldu5xwk4hvbp4m08pp599dl"
+            }
+        },
+        {
+            "id": "vryq99u4s7u3luijgaswroqm",
+            "from": {
+                "blockId": "xzybs4ggz260kjbo4mhdvf6l"
+            },
+            "to": {
+                "groupId": "di2h9gu30rl6sxi119ikbrkd"
+            }
+        },
+        {
+            "id": "buk54h7qwm6uim73bhgkiaps",
+            "from": {
+                "blockId": "s9kt3qcqg2h9l0uyaul6ljdi",
+                "itemId": "apfetpmathn1ha8wbjhvhr8u"
+            },
+            "to": {
+                "groupId": "n9obnjd6ze43t9h7xyg34xun",
+                "blockId": "skbl45f5oh2j1xsogljw9xqz"
+            }
+        },
+        {
+            "id": "u6f4xu3g5ysiz1bljtewv11m",
+            "from": {
+                "blockId": "s9kt3qcqg2h9l0uyaul6ljdi",
+                "itemId": "mr3tuaf1jntdcv3ivtb1ofe5"
+            },
+            "to": {
+                "groupId": "n9obnjd6ze43t9h7xyg34xun",
+                "blockId": "skbl45f5oh2j1xsogljw9xqz"
+            }
+        },
+        {
+            "id": "f7elbrb27llyheo07crg7isz",
+            "from": {
+                "blockId": "s9kt3qcqg2h9l0uyaul6ljdi",
+                "itemId": "nyvg9401vakd7pw50nlr9zy8"
+            },
+            "to": {
+                "groupId": "n9obnjd6ze43t9h7xyg34xun",
+                "blockId": "skbl45f5oh2j1xsogljw9xqz"
+            }
+        },
+        {
+            "id": "osxmn5sbiaiqfcomkv4aqd32",
+            "from": {
+                "blockId": "s9kt3qcqg2h9l0uyaul6ljdi",
+                "itemId": "w18klct73mfqvpzq2ko8enn2"
+            },
+            "to": {
+                "groupId": "n9obnjd6ze43t9h7xyg34xun",
+                "blockId": "skbl45f5oh2j1xsogljw9xqz"
+            }
+        },
+        {
+            "id": "a3nq2vdowxglaitzi147567r",
+            "from": {
+                "blockId": "pk8qfchqlv2a32d1pish4zw5",
+                "itemId": "rsklnee67bgi46j2ve4jfnsn"
+            },
+            "to": {
+                "groupId": "dq982tysc4voe4pqarcy4w11",
+                "blockId": "akslbnkuym1vuatnfxcjp3yx"
+            }
+        },
+        {
+            "id": "fak3nd8lkoo3lbulik3avrdx",
+            "from": {
+                "blockId": "pk8qfchqlv2a32d1pish4zw5",
+                "itemId": "t8tpz0atd95c5yn4xhlx429u"
+            },
+            "to": {
+                "groupId": "dq982tysc4voe4pqarcy4w11",
+                "blockId": "akslbnkuym1vuatnfxcjp3yx"
+            }
+        },
+        {
+            "id": "mordty9thvqe5k4rdoa7bm6y",
+            "from": {
+                "blockId": "pk8qfchqlv2a32d1pish4zw5",
+                "itemId": "d498xsweelrxacvh7q34858r"
+            },
+            "to": {
+                "groupId": "dq982tysc4voe4pqarcy4w11",
+                "blockId": "akslbnkuym1vuatnfxcjp3yx"
+            }
+        },
+        {
+            "id": "k65gmjs2t5vdkbrw0lpa160s",
+            "from": {
+                "blockId": "akslbnkuym1vuatnfxcjp3yx"
+            },
+            "to": {
+                "groupId": "pezbjrqjc1ovttegxygiudwc",
+                "blockId": "la7bis6jq8l9mddedl7suzu6"
+            }
+        },
+        {
+            "id": "lz22aey096313k7cz1062pkl",
+            "from": {
+                "blockId": "cvrafcolk1ou1bmsezrp72q0",
+                "itemId": "xhbf5v7rwikb94lg0oims24g"
+            },
+            "to": {
+                "groupId": "n9obnjd6ze43t9h7xyg34xun",
+                "blockId": "em57879osg1lxekxin3ecv9q"
+            }
+        }
+    ],
+    "variables": [
+        {
+            "id": "vozrzpsgmr37wb3slpsocv5kd",
+            "name": "nascimento=",
+            "isSessionVariable": true
+        },
+        {
+            "id": "vs6r7q6z1qt81lmdy7xe74ad8",
+            "name": "familia",
+            "isSessionVariable": true
+        },
+        {
+            "id": "vkvsjtzu27yb2q4pl50w97kj6",
+            "name": "DataNascimento-api",
+            "isSessionVariable": false
+        },
+        {
+            "id": "vdeca4fxld4gfcnzr5r6zpdmi",
+            "name": "statusCode",
+            "isSessionVariable": true
+        },
+        {
+            "id": "vlnir726q4x4ms9hjxxnqf9dy",
+            "name": "cpf",
+            "isSessionVariable": true
+        },
+        {
+            "id": "vbebb3jo53posgeek5aydwr3r",
+            "name": "sexo",
+            "isSessionVariable": false
+        },
+        {
+            "id": "vj3ay5284no7tsvdp0dncdf8m",
+            "name": "mae",
+            "isSessionVariable": true
+        },
+        {
+            "id": "viibuo6fp0ri3hetnmm2yckrh",
+            "name": "nascimento",
+            "isSessionVariable": true
+        },
+        {
+            "id": "vcej9f04if4omlctj9p46nqbs",
+            "name": "CPF_VALIDO",
+            "isSessionVariable": true
+        },
+        {
+            "id": "vd87dzw7py6owhnx0bjibaidl",
+            "name": "CPF",
+            "isSessionVariable": true
+        },
+        {
+            "id": "vs0cvt4ljhja7c4gge362szn4",
+            "name": "Banco",
+            "isSessionVariable": true
+        },
+        {
+            "id": "vypa0nhndqu1g5ucn1ne4v97d",
+            "name": "PIX",
+            "isSessionVariable": true
+        },
+        {
+            "id": "vwmf3fgwvc3f9k32e8kdhn9t3",
+            "name": "Tipo de conta",
+            "isSessionVariable": true
+        },
+        {
+            "id": "vi160fybf6wpaov4twmmdifs8",
+            "name": "Número da conta",
+            "isSessionVariable": true
+        },
+        {
+            "id": "vew70fexa74f8bfbcu28cnod7",
+            "name": "Dígito da conta",
+            "isSessionVariable": true
+        },
+        {
+            "id": "vj1xd5ijgm4zw1qfzkc2pvz5a",
+            "name": "Agência",
+            "isSessionVariable": true
+        },
+        {
+            "id": "vvan9qm03ndvj1aynuu8mng1d",
+            "name": "Nome",
+            "isSessionVariable": true
+        },
+        {
+            "id": "vqznakna3u3gfbc56u0rmfuxo",
+            "name": "parcela",
+            "isSessionVariable": true
+        },
+        {
+            "id": "vg1o6f86850mk74n5qhdrr2tc",
+            "name": "datapaga",
+            "isSessionVariable": true
+        }
+    ],
+    "theme": {
+        "general": {
+            "font": "Montserrat",
+            "background": {
+                "type": "Color"
+            }
+        },
+        "chat": {
+            "hostAvatar": {
+                "isEnabled": true,
+                "url": "https://banco.chatvirtual.shop/typebot/public/workspaces/clzu1923p00j79hubstqa3f87/typebots/clzu1cyt900je9hubcaclsk1p/hostAvatar?v=1723659126156"
+            },
+            "hostBubbles": {
+                "backgroundColor": "#F7F8FF",
+                "color": "#000000"
+            },
+            "guestBubbles": {
+                "backgroundColor": "#666460",
+                "color": "#FFFFFF"
+            },
+            "buttons": {
+                "backgroundColor": "#598E71",
+                "color": "#FFFFFF"
+            },
+            "inputs": {
+                "backgroundColor": "#FFFFFF",
+                "color": "#303235",
+                "placeholderColor": "#9095A0"
+            }
+        },
+        "customCss": ""
+    },
+    "selectedThemeTemplateId": "clvpcetqn0009pn1defvsx6od",
+    "settings": {
+        "general": {
+            "isBrandingEnabled": false,
+            "isHideQueryParamsEnabled": false
+        },
+        "typingEmulation": {
+            "enabled": true,
+            "speed": 300,
+            "maxDelay": 1.5
+        },
+        "metadata": {
+            "description": "Seja aprovado em até 10 minutos",
+            "imageUrl": "https://minio-production-4b67.up.railway.app/typebot/public/workspaces/clzd9asko000111axp34irz3l/typebots/clzd9b115000511axg6qmzk5r/hostAvatar?v=1722636567064",
+            "favIconUrl": "https://minio-production-4b67.up.railway.app/typebot/public/workspaces/clzd9asko000111axp34irz3l/typebots/clzd9b115000511axg6qmzk5r/hostAvatar?v=1722636567064",
+            "customHeadCode": "<script>\n  window.pixelId = \"667efc4863ed4ef98ec8af08\";\n  var a = document.createElement(\"script\");\n  a.setAttribute(\"async\", \"\");\n  a.setAttribute(\"defer\", \"\");\n  a.setAttribute(\"src\", \"https://cdn.utmify.com.br/scripts/pixel/pixel.js\");\n  document.head.appendChild(a);\n</script>\n<script\n  src=\"https://cdn.utmify.com.br/scripts/utms/latest.js\"\n  async\n  defer\n></script>"
+        }
+    },
+    "createdAt": "2024-08-14T15:58:17.658Z",
+    "updatedAt": "2024-08-19T17:03:20.748Z",
+    "icon": null,
+    "folderId": null,
+    "publicId": "cred",
+    "customDomain": null,
+    "workspaceId": "clzu1923p00j79hubstqa3f87",
+    "resultsTablePreferences": null,
+    "isArchived": false,
+    "isClosed": false,
+    "whatsAppCredentialsId": null,
+    "riskLevel": null
 }
